@@ -254,7 +254,7 @@ st.set_page_config(
 st.markdown("""
     <div style='text-align: center; padding: 1rem 0 2rem 0;'>
         <h1 style='color: #6366f1; margin-bottom: 0.5rem;'>🤖 Website Analyzer</h1>
-        <p style='color: #6b7280; font-size: 1.1rem; margin: 0;'>Internal Automation Tool by <strong>Review.Ai</strong></p>
+        <p style='color: #6b7280; font-size: 1.1rem; margin: 0;'>Internal Automation Tool for <strong>Review.Ai</strong></p>
         <hr style='margin-top: 1.5rem; margin-bottom: 0;'>
     </div>
 """, unsafe_allow_html=True)
@@ -432,4 +432,5 @@ if 'analysis' in st.session_state:
 
 # Footer
 st.markdown("---")
+
 st.markdown("*Powered by Google Gemini AI | Using smart fallback system to avoid rate limits*")
